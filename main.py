@@ -65,7 +65,7 @@ def casos_dengue(elemento):
 def chave_uf_ano_mes_lista(elemento):
     """
     Receber uma lista de elementos
-    Retornar uma tupla contendo uma chave e o valor em mm
+    Retornar uma tupla contendo uma chave e o valor em mm.
     ('UF-ANO-MES',1.3) 
     """
     data, mm, uf = elemento
