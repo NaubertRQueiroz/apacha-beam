@@ -155,7 +155,7 @@ resultado = (
     | "Filtrar dados vazios" >> beam.Filter(filtra_campos_vazios)
     | "Descompactar elementos" >> beam.Map(descompactar_elementos)
     | "Preparar CSV " >> beam.Map(preparar_csv)
-    # | "Mostrar resultados da união" >> beam.Map(print)
+    # | "Mostrar resultados da união dos datasets" >> beam.Map(print)
 
 )
 #uf, ano, mes, str(chuva), str(dengue)
