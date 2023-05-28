@@ -165,4 +165,4 @@ resultado | 'Criar arquivo CSV ' >> WriteToText('resultado', file_name_suffix='.
 
 pipeline.run()
 
-#By Naubert
+#By Naubert Roque
